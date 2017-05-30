@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0022060E7491EBEA84AFDF4E /* Pods_MrtStation1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134A1B668309A1C7B8DBB522 /* Pods_MrtStation1.framework */; };
 		F170C2AD1CF69E8400821936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2AC1CF69E8400821936 /* AppDelegate.swift */; };
-		F170C2AF1CF69E8400821936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2AE1CF69E8400821936 /* ViewController.swift */; };
 		F170C2B21CF69E8400821936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F170C2B01CF69E8400821936 /* Main.storyboard */; };
 		F170C2B41CF69E8400821936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F170C2B31CF69E8400821936 /* Assets.xcassets */; };
 		F170C2B71CF69E8400821936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F170C2B51CF69E8400821936 /* LaunchScreen.storyboard */; };
 		F170C2C21CF69E8400821936 /* MrtStation1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2C11CF69E8400821936 /* MrtStation1Tests.swift */; };
 		F170C2CD1CF69E8400821936 /* MrtStation1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2CC1CF69E8400821936 /* MrtStation1UITests.swift */; };
+		F170C2DD1CF6A02F00821936 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = F170C2DC1CF6A02F00821936 /* PodFile */; };
+		F170C2DF1CF6A0BB00821936 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F170C2DE1CF6A0BB00821936 /* SwiftyJSON.framework */; };
+		F170C2E31CF6A15F00821936 /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = F170C2E21CF6A15F00821936 /* MRT.json */; };
+		F170C2E51CF6A1C700821936 /* MrtData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2E41CF6A1C700821936 /* MrtData.swift */; };
+		F170C2E71CF6A21D00821936 /* MrtDataArrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2E61CF6A21D00821936 /* MrtDataArrange.swift */; };
+		F170C2ED1CF6A31500821936 /* MrtListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2EC1CF6A31500821936 /* MrtListViewController.swift */; };
+		F170C2EF1CF6A48500821936 /* SecTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2EE1CF6A48500821936 /* SecTableViewCell.swift */; };
+		F170C2F31CF6A6AD00821936 /* MrtDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170C2F21CF6A6AD00821936 /* MrtDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134A1B668309A1C7B8DBB522 /* Pods_MrtStation1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrtStation1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D01E2762E4B52C326D9B7A /* Pods-MrtStation1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrtStation1.release.xcconfig"; path = "Pods/Target Support Files/Pods-MrtStation1/Pods-MrtStation1.release.xcconfig"; sourceTree = "<group>"; };
 		F170C2A91CF69E8400821936 /* MrtStation1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrtStation1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F170C2AC1CF69E8400821936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F170C2AE1CF69E8400821936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F170C2B11CF69E8400821936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F170C2B31CF69E8400821936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F170C2B61CF69E8400821936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		F170C2C81CF69E8400821936 /* MrtStation1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrtStation1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F170C2CC1CF69E8400821936 /* MrtStation1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrtStation1UITests.swift; sourceTree = "<group>"; };
 		F170C2CE1CF69E8400821936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F170C2DC1CF6A02F00821936 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PodFile; path = ../PodFile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F170C2DE1CF6A0BB00821936 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		F170C2E21CF6A15F00821936 /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MRT.json; sourceTree = "<group>"; };
+		F170C2E41CF6A1C700821936 /* MrtData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MrtData.swift; sourceTree = "<group>"; };
+		F170C2E61CF6A21D00821936 /* MrtDataArrange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MrtDataArrange.swift; sourceTree = "<group>"; };
+		F170C2EC1CF6A31500821936 /* MrtListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MrtListViewController.swift; sourceTree = "<group>"; };
+		F170C2EE1CF6A48500821936 /* SecTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecTableViewCell.swift; sourceTree = "<group>"; };
+		F170C2F21CF6A6AD00821936 /* MrtDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MrtDetailViewController.swift; sourceTree = "<group>"; };
+		FFCE2BEACAEC0C3359569E1C /* Pods-MrtStation1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrtStation1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MrtStation1/Pods-MrtStation1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F170C2DF1CF6A0BB00821936 /* SwiftyJSON.framework in Frameworks */,
+				0022060E7491EBEA84AFDF4E /* Pods_MrtStation1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A8ECC0AF26A0B8EBFAA4FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE2BEACAEC0C3359569E1C /* Pods-MrtStation1.debug.xcconfig */,
+				B1D01E2762E4B52C326D9B7A /* Pods-MrtStation1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7A9E15572B182139A6E7087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F170C2DE1CF6A0BB00821936 /* SwiftyJSON.framework */,
+				134A1B668309A1C7B8DBB522 /* Pods_MrtStation1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F170C2A01CF69E8400821936 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				F170C2C01CF69E8400821936 /* MrtStation1Tests */,
 				F170C2CB1CF69E8400821936 /* MrtStation1UITests */,
 				F170C2AA1CF69E8400821936 /* Products */,
+				4A8ECC0AF26A0B8EBFAA4FD2 /* Pods */,
+				B7A9E15572B182139A6E7087 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +137,15 @@
 		F170C2AB1CF69E8400821936 /* MrtStation1 */ = {
 			isa = PBXGroup;
 			children = (
+				F170C2DC1CF6A02F00821936 /* PodFile */,
 				F170C2AC1CF69E8400821936 /* AppDelegate.swift */,
-				F170C2AE1CF69E8400821936 /* ViewController.swift */,
+				F170C2E21CF6A15F00821936 /* MRT.json */,
+				F170C2E41CF6A1C700821936 /* MrtData.swift */,
+				F170C2E61CF6A21D00821936 /* MrtDataArrange.swift */,
+				F170C2EC1CF6A31500821936 /* MrtListViewController.swift */,
 				F170C2B01CF69E8400821936 /* Main.storyboard */,
+				F170C2EE1CF6A48500821936 /* SecTableViewCell.swift */,
+				F170C2F21CF6A6AD00821936 /* MrtDetailViewController.swift */,
 				F170C2B31CF69E8400821936 /* Assets.xcassets */,
 				F170C2B51CF69E8400821936 /* LaunchScreen.storyboard */,
 				F170C2B81CF69E8400821936 /* Info.plist */,
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F170C2D11CF69E8400821936 /* Build configuration list for PBXNativeTarget "MrtStation1" */;
 			buildPhases = (
+				EE7B9ED2AFEC39E81DC5242F /* [CP] Check Pods Manifest.lock */,
 				F170C2A51CF69E8400821936 /* Sources */,
 				F170C2A61CF69E8400821936 /* Frameworks */,
 				F170C2A71CF69E8400821936 /* Resources */,
+				0372145CB6BDB68B9EF39D8D /* [CP] Embed Pods Frameworks */,
+				2C9E0C8F754E3A9B5B64357D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +242,16 @@
 				TargetAttributes = {
 					F170C2A81CF69E8400821936 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					F170C2BC1CF69E8400821936 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = F170C2A81CF69E8400821936;
 					};
 					F170C2C71CF69E8400821936 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = F170C2A81CF69E8400821936;
 					};
 				};
@@ -231,7 +283,9 @@
 			files = (
 				F170C2B71CF69E8400821936 /* LaunchScreen.storyboard in Resources */,
 				F170C2B41CF69E8400821936 /* Assets.xcassets in Resources */,
+				F170C2DD1CF6A02F00821936 /* PodFile in Resources */,
 				F170C2B21CF69E8400821936 /* Main.storyboard in Resources */,
+				F170C2E31CF6A15F00821936 /* MRT.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0372145CB6BDB68B9EF39D8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MrtStation1/Pods-MrtStation1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C9E0C8F754E3A9B5B64357D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MrtStation1/Pods-MrtStation1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7B9ED2AFEC39E81DC5242F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F170C2A51CF69E8400821936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F170C2AF1CF69E8400821936 /* ViewController.swift in Sources */,
+				F170C2ED1CF6A31500821936 /* MrtListViewController.swift in Sources */,
 				F170C2AD1CF69E8400821936 /* AppDelegate.swift in Sources */,
+				F170C2EF1CF6A48500821936 /* SecTableViewCell.swift in Sources */,
+				F170C2F31CF6A6AD00821936 /* MrtDetailViewController.swift in Sources */,
+				F170C2E51CF6A1C700821936 /* MrtData.swift in Sources */,
+				F170C2E71CF6A21D00821936 /* MrtDataArrange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +503,35 @@
 		};
 		F170C2D21CF69E8400821936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCE2BEACAEC0C3359569E1C /* Pods-MrtStation1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = MrtStation1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jin.MrtStation1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F170C2D31CF69E8400821936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D01E2762E4B52C326D9B7A /* Pods-MrtStation1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = MrtStation1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jin.MrtStation1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jin.MrtStation1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MrtStation1.app/MrtStation1";
 			};
 			name = Debug;
@@ -437,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jin.MrtStation1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MrtStation1.app/MrtStation1";
 			};
 			name = Release;
@@ -448,6 +568,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jin.MrtStation1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MrtStation1;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,6 +581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jin.MrtStation1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MrtStation1;
 				USES_XCTRUNNER = YES;
 			};
@@ -484,6 +606,7 @@
 				F170C2D31CF69E8400821936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F170C2D41CF69E8400821936 /* Build configuration list for PBXNativeTarget "MrtStation1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +615,7 @@
 				F170C2D61CF69E8400821936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F170C2D71CF69E8400821936 /* Build configuration list for PBXNativeTarget "MrtStation1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +624,7 @@
 				F170C2D91CF69E8400821936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

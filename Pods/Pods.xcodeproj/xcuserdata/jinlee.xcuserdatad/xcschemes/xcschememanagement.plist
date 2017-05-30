@@ -4,25 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MrtStation1.xcscheme</key>
+		<key>Pods-MrtStation1.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F170C2A81CF69E8400821936</key>
+		<key>3DF61163AFAC203ADEFA489DFB3BDE38</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F170C2BC1CF69E8400821936</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F170C2C71CF69E8400821936</key>
+		<key>E0FCC6F8ED07AB706FDC20E0F7BE1686</key>
 		<dict>
 			<key>primary</key>
 			<true/>
